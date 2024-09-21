@@ -1,0 +1,62 @@
+html{
+    font-size: 22px;
+}
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: cneter;
+    align-items: center;
+    flex-direction: column;
+    background: url("image/Space_Photo_1.jpg");
+    background-size: cover;
+    font-family:"Poetsen One", sans-serif;
+    background-color: black;
+    color: whitesmoke;
+}
+fieldset {
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: fit-content;
+    border-radius: 10px;
+    margin: 0;
+    padding: 20px;
+}
+#tab-data {
+    backdrop-filter: blur(5px);
+    max-width: fit-content;
+}
+input:in-range{
+    background-color: white;
+}
+input:out-of-range{
+    background-color: lightcoral;
+}
+table, th, td {
+    border: 1px solid; 
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.error {
+    color: red;
+}
+.invalid {
+    border-color:red;
+}
+.clock {
+    backdrop-filter: blur(5px);
+    max-width: fit-content;
+    border: 1px solid;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.clock-time, .clock-ampm {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 30px;
+    color: #eee
+}
+.clock-time {
+    font-size: 48px;
+}

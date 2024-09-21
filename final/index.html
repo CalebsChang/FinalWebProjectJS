@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-App Week 5</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <script type="module" src ="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>STARGAZING FOR EVERYONE</h1>
+    <div class="clock">
+        <span class="clock-time"></span>
+        <span class="clock-ampm"></span>
+    </div>
+    <form id = "planetFORM">
+        <fieldset>
+            <div>
+                <label>Which planet do you want to see?</label>
+                <select id="planetChoice">
+                    <option value="">--Please Enter a Planet--</option>
+                    <option value="Mercury">Mercury</option>
+                    <option value="Venus">Venus</option>
+                    <option value="Mars">Mars</option>
+                    <option value="Jupiter">Jupiter</option>
+                    <option value="Saturn">Saturn</option>
+                    <option value="Uranus">Uranus</option>
+                    <option value="Neptune">Neptune</option>
+                </select>
+                <span id ="planetError" class="error"></span>
+            </div>
+            <div>
+                <label>Which month do you have in mind?</label>
+                <select id="monthChoice">
+                    <option value ="">---Please enter a Month---</option>
+                    <option value="January">January</option>
+                    <option value="Feburary">Feburary</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button> <br>
+            <span id ="SubmitError" class= "error"></span>
+        </fieldset>
+    </form>
+    <div id="output"></div>
+    <div id="tab-data"></div>
+</body>
+</html>
